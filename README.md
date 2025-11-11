@@ -36,5 +36,6 @@ This project takes inspiration from the Albers “Course Schedule by Major,” b
 
  Created by:
 Helina,Muhammad,Edna
-Seattle University · Computer Science Major  
+
+Seattle University 
 📍 Based in Seattle, WA
