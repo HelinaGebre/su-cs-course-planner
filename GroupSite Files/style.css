@@ -1,0 +1,200 @@
+/* ========== Global Styles ========== */
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(https://images.sidearmdev.com/convert?url=https%3a%2f%2fdxbhsrqyrr690.cloudfront.net%2fsidearm.nextgen.sites%2fgoseattleu.com%2fimages%2f2020%2f6%2f24%2fSeattleU_ZOOM_backgrounds_019.JPG&type=webp)
+    no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+h2 {
+    color: #b30000; /* Deep red */
+    text-align: center;
+    font-size: 1.8em;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+/* This makes only the h2 inside the header white */
+header h2 {
+    color: white !important;
+}
+
+/* ========== Header & Navigation ========== */
+
+header {
+    position: relative;
+    background-color: #800000; /* Dark red / maroon */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header img.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 50px; /* increased logo size */
+}
+
+header h1 {
+    padding-left: 80px; /* adjusted to fit larger logo */
+    margin: 0;
+    line-height: 50px; /* vertically center the text with the logo */
+}
+
+/* ========== Navigation Bar ========== */
+
+nav {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 17px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #d9d5e0; /* Light gray highlight */
+    color: #b30000; /* Deep red */
+    outline: none;
+}
+
+nav a.active {
+    background-color: #b30000; /* Deep red */
+    color: white;
+}
+
+/* ========== Top Navigation Bar (if separate from main nav) ========== */
+
+.topnav {
+    background-color: #44030c; /* Maroonish */
+    display: flex;
+    overflow: hidden;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    flex: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.topnav a:hover,
+.topnav a:focus {
+    background-color: #d9d5e0; /* Light gray highlight */
+    color: #b30000; /* Deep red */
+    outline: none;
+}
+
+.topnav a.active {
+    background-color: #b30000;
+    color: white;
+}
+
+/* ========== Main Content ========== */
+
+main {
+    padding: 2rem;
+    text-align: center;
+    background: white;
+    margin: 1rem auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ========== Levels Section ========== */
+
+.levels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.level-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    padding: 1.5rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.level-card:hover,
+.level-card:focus {
+    background: #e6f0ff;
+    border-color: #004080;
+    outline: none;
+}
+
+/* ========== Buttons ========== */
+
+.button-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.button-container a:link,
+.button-container a:visited {
+    background-color: #44030c; /* Dark maroon */
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.button-container a:hover,
+.button-container a:active,
+.button-container a:focus {
+    background-color: #b30000; /* Deep red */
+    outline: none;
+}
+
+/* ========== Course Level Specific Styles ========== */
+
+.course-level {
+    background: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 5px solid #800000;
+}
+
+.course-level h2 {
+    color: #002D62; /* Dark blue */
+}
+
+/* ========== Advisor Block ========== */
+
+.advisor-block {
+    text-align: center;
+}
+
+/* ========== Accessibility Notes ========== */
+
+a:focus,
+button:focus {
+    outline: 2px solid #b30000;
+    outline-offset: 2px;
+}
