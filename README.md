@@ -1,4 +1,4 @@
-# 🧭 Seattle University Computer Science Course Planner
+ Seattle University Computer Science Course Planner
 
 This project was inspired by Seattle University’s **Course Schedule by Major** from the Albers School of Business. While that tool is great for business students, there wasn’t an equivalent resource for **Computer Science** majors in the College of Science and Engineering. The goal of this project is to make course planning easier for SU CS students by showing when courses are offered and what prerequisites they require.
 
